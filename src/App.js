@@ -1,10 +1,14 @@
 // import Inputs from "./Inputs";
-import DataDisplay from "./DataDisplay";
+
+import Feedback from "./Feedback";
+
+// import DataDisplay from "./DataDisplay";
 function App() {
   return (
     <div>
       {/* <Inputs/> */}
-      <DataDisplay/>
+      {/* <DataDisplay/> */}
+      <Feedback/>
     </div>
   );
 }

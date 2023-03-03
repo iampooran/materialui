@@ -9,11 +9,11 @@ import TypographyExample from "./components/DataDisplay/TypographyExample";
 const DataDisplay = () => {
   return (
     <div>
-      {/* <AvatarExample />
+      <AvatarExample />
       <BadgeExample/>
       <DividerExample/>
       <ListExample/>
-      <TableExample/> */}
+      <TableExample/>
       <TypographyExample/>
     </div>
   );
