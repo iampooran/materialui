@@ -1,6 +1,8 @@
 // import Inputs from "./Inputs";
 
-import Surfaces from "./Surfaces";
+import Navigation from "./Navigation";
+
+// import Surfaces from "./Surfaces";
 
 // import Feedback from "./Feedback";
 
@@ -11,7 +13,8 @@ function App() {
       {/* <Inputs/> */}
       {/* <DataDisplay/> */}
       {/* <Feedback/> */}
-      <Surfaces/>
+      {/* <Surfaces/> */}
+      <Navigation/>
     </div>
   );
 }
