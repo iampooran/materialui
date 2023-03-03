@@ -4,12 +4,16 @@
 // import CheckBoxExample from "./components/CheckBoxExample";
 // import FloatingActionButtonExample from "./components/FloatingActionButtonExample";
 // import RadioGroupExample from "./components/RadioGroupExample";
-
+// import RatingExample from "./components/RatingExample";
 // import SelectExample from "./components/SelectExample";
 // import SliderExample from "./components/SliderExample";
-import SwitchExample from "./components/SwitchExample";
+// import SwitchExample from "./components/SwitchExample";
+// import TextFieldExample from "./components/TextFieldExample";
+// import TransferListExample from "./components/TransferListExample";
 
-// import RatingExample from "./components/RatingExample";
+import ToggleButtonExample from "./components/ToggleButtonExample";
+
+
 function App() {
   return (
     <div>
@@ -22,7 +26,10 @@ function App() {
       {/* <RatingExample /> */}
       {/* <SelectExample/> */}
       {/* <SliderExample/> */}
-      <SwitchExample/>
+      {/* <SwitchExample/> */}
+      {/* <TextFieldExample/> */}
+      {/* <TransferListExample/> */}
+      <ToggleButtonExample/>
     </div>
   );
 }
