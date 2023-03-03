@@ -5,7 +5,8 @@
 // import FloatingActionButtonExample from "./components/FloatingActionButtonExample";
 // import RadioGroupExample from "./components/RadioGroupExample";
 
-import SelectExample from "./components/SelectExample";
+// import SelectExample from "./components/SelectExample";
+import SliderExample from "./components/SliderExample";
 
 // import RatingExample from "./components/RatingExample";
 function App() {
@@ -18,7 +19,8 @@ function App() {
       {/* <FloatingActionButtonExample/> */}
       {/* <RadioGroupExample/> */}
       {/* <RatingExample /> */}
-      <SelectExample/>
+      {/* <SelectExample/> */}
+      <SliderExample/>
     </div>
   );
 }
