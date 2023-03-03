@@ -1,6 +1,8 @@
 // import Inputs from "./Inputs";
 
-import Feedback from "./Feedback";
+import Surfaces from "./Surfaces";
+
+// import Feedback from "./Feedback";
 
 // import DataDisplay from "./DataDisplay";
 function App() {
@@ -8,7 +10,8 @@ function App() {
     <div>
       {/* <Inputs/> */}
       {/* <DataDisplay/> */}
-      <Feedback/>
+      {/* <Feedback/> */}
+      <Surfaces/>
     </div>
   );
 }
