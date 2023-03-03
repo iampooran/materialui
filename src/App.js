@@ -6,7 +6,8 @@
 // import RadioGroupExample from "./components/RadioGroupExample";
 
 // import SelectExample from "./components/SelectExample";
-import SliderExample from "./components/SliderExample";
+// import SliderExample from "./components/SliderExample";
+import SwitchExample from "./components/SwitchExample";
 
 // import RatingExample from "./components/RatingExample";
 function App() {
@@ -20,7 +21,8 @@ function App() {
       {/* <RadioGroupExample/> */}
       {/* <RatingExample /> */}
       {/* <SelectExample/> */}
-      <SliderExample/>
+      {/* <SliderExample/> */}
+      <SwitchExample/>
     </div>
   );
 }
