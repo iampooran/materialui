@@ -2,20 +2,17 @@ import { PhotoCamera } from "@mui/icons-material";
 import SendIcon from "@mui/icons-material/Send";
 import { Button, IconButton } from "@mui/material";
 import React from "react";
-import { styled } from '@mui/material/styles';
-import { purple } from '@mui/material/colors';
+import { styled } from "@mui/material/styles";
+import { purple } from "@mui/material/colors";
 
-
-const MUIButton = () => {
-
-
-    const ColorButton = styled(Button)(({ theme }) => ({
-        color: theme.palette.getContrastText(purple[500]),
-        backgroundColor: purple[500],
-        '&:hover': {
-          backgroundColor: purple[700],
-        },
-      }));
+const ButtonExample = () => {
+  const ColorButton = styled(Button)(({ theme }) => ({
+    color: theme.palette.getContrastText(purple[500]),
+    backgroundColor: purple[500],
+    "&:hover": {
+      backgroundColor: purple[700],
+    },
+  }));
 
   return (
     <div>
@@ -75,19 +72,19 @@ const MUIButton = () => {
         </IconButton>
       </div>
 
-    {/* Button with Text and Icon */}
-    <div>
-    <p>Button with Text and Icon</p>
-      <Button variant="contained" endIcon={<SendIcon />}>
-        Send
-      </Button>
+      {/* Button with Text and Icon */}
+      <div>
+        <p>Button with Text and Icon</p>
+        <Button variant="contained" endIcon={<SendIcon />}>
+          Send
+        </Button>
       </div>
 
-    {/* Add Custom CSS */}
-    <p>Add Custom CSS to Button</p>
+      {/* Add Custom CSS */}
+      <p>Add Custom CSS to Button</p>
       <ColorButton variant="contained">Custom CSS</ColorButton>
     </div>
   );
 };
 
-export default MUIButton;
+export default ButtonExample;
