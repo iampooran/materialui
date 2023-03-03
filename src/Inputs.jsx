@@ -16,18 +16,31 @@ const Inputs = () => {
   return (
     <div>
       <ButtonExample />
+      <hr />
       <AutoCompleteExample />
+      <hr />
       <ButtonGroupExample />
+      <hr />
       <CheckBoxExample />
+      <hr />
       <FloatingActionButtonExample />
+      <hr />
       <RadioGroupExample />
+      <hr />
       <RatingExample />
+      <hr />
       <SelectExample />
+      <hr />
       <SliderExample />
+      <hr />
       <SwitchExample />
+      <hr />
       <TextFieldExample />
+      <hr />
       <TransferListExample />
+      <hr />
       <ToggleButtonExample />
+      <hr />
     </div>
   );
 };
