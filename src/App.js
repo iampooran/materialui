@@ -3,9 +3,8 @@
 // import ButtonGroupExample from "./components/ButtonGroupExample";
 // import CheckBoxExample from "./components/CheckBoxExample";
 // import FloatingActionButtonExample from "./components/FloatingActionButtonExample";
-
-import RadioGroupExample from "./components/RadioGroupExample";
-
+// import RadioGroupExample from "./components/RadioGroupExample";
+import RatingExample from "./components/RatingExample";
 function App() {
   return (
     <div>
@@ -14,7 +13,8 @@ function App() {
       {/* <ButtonGroupExample/> */}
       {/* <CheckBoxExample /> */}
       {/* <FloatingActionButtonExample/> */}
-      <RadioGroupExample/>
+      {/* <RadioGroupExample/> */}
+      <RatingExample />
     </div>
   );
 }
