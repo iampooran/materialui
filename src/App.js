@@ -7,12 +7,12 @@ import DataDisplay from "./DataDisplay";
 function App() {
   return (
     <div>
-      <Inputs/>
-      <DataDisplay/>
-      <Feedback/>
-      <Surfaces/>
-      <Navigation/>
-      <Layout/>
+      <Inputs />
+      <DataDisplay />
+      <Feedback />
+      <Surfaces />
+      <Navigation />
+      <Layout />
     </div>
   );
 }

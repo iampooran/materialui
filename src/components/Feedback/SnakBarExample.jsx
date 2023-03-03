@@ -1,7 +1,7 @@
 import { Button, Snackbar } from "@mui/material";
 import React from "react";
-import IconButton from '@mui/material/IconButton';
-import CloseIcon from '@mui/icons-material/Close';
+import IconButton from "@mui/material/IconButton";
+import CloseIcon from "@mui/icons-material/Close";
 
 const SnakBarExample = () => {
   const [open, setOpen] = React.useState(false);

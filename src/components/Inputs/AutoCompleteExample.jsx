@@ -15,7 +15,7 @@ const AutoCompleteExample = () => {
         id="combo-box-demo"
         options={options}
         sx={{ width: 300 }}
-        renderInput={(params) =>  <TextField {...params} label="Movie Name"/>}
+        renderInput={(params) => <TextField {...params} label="Movie Name" />}
       />
     </div>
   );

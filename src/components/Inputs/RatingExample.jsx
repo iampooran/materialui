@@ -21,7 +21,7 @@ const RatingExample = () => {
       <Typography component="legend">No rating given</Typography>
       <Rating name="no-value" value={null} />
       <p>
-      <Rating name="half-rating" defaultValue={2.5} precision={0.5} />
+        <Rating name="half-rating" defaultValue={2.5} precision={0.5} />
       </p>
     </div>
   );

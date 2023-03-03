@@ -14,8 +14,8 @@ const SliderExample = () => {
         <VolumeDown />
         <Slider aria-label="Volume" value={value} onChange={handleChange} />
         <VolumeUp />
-      
-      <Slider disabled defaultValue={30} aria-label="Disabled slider" />
+
+        <Slider disabled defaultValue={30} aria-label="Disabled slider" />
       </Stack>
     </div>
   );

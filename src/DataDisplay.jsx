@@ -10,11 +10,11 @@ const DataDisplay = () => {
   return (
     <div>
       <AvatarExample />
-      <BadgeExample/>
-      <DividerExample/>
-      <ListExample/>
-      <TableExample/>
-      <TypographyExample/>
+      <BadgeExample />
+      <DividerExample />
+      <ListExample />
+      <TableExample />
+      <TypographyExample />
     </div>
   );
 };

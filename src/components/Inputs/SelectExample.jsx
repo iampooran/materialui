@@ -17,7 +17,7 @@ const SelectExample = () => {
           value={age}
           label="Age"
           onChange={handleChange}
-          sx={{width:400}}
+          sx={{ width: 400 }}
         >
           <MenuItem value={10}>Ten</MenuItem>
           <MenuItem value={20}>Twenty</MenuItem>
