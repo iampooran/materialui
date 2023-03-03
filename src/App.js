@@ -1,8 +1,9 @@
+import MUIButton from "./components/MUIButton";
 
 function App() {
   return (
     <div>
-      App
+      <MUIButton/>
     </div>
   );
 }
