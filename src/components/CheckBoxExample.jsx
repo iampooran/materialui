@@ -1,6 +1,9 @@
+import { Favorite, FavoriteBorder } from "@mui/icons-material";
 import { Checkbox, FormControlLabel, FormGroup } from "@mui/material";
 import { pink } from "@mui/material/colors";
 import React from "react";
+import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
+import BookmarkIcon from "@mui/icons-material/Bookmark";
 
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
@@ -53,6 +56,20 @@ const CheckBoxExample = () => {
               color: pink[600],
             },
           }}
+        />
+      </div>
+      <hr />
+      <div>
+        Icon
+        <Checkbox
+          {...label}
+          icon={<FavoriteBorder />}
+          checkedIcon={<Favorite />}
+        />
+        <Checkbox
+          {...label}
+          icon={<BookmarkBorderIcon />}
+          checkedIcon={<BookmarkIcon />}
         />
       </div>
     </div>
