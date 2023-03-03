@@ -1,7 +1,9 @@
 // import AutoCompleteExample from "./components/AutoCompleteExample";
 // import ButtonExample from "./components/ButtonExample";
 // import ButtonGroupExample from "./components/ButtonGroupExample";
-import CheckBoxExample from "./components/CheckBoxExample";
+// import CheckBoxExample from "./components/CheckBoxExample";
+
+import FloatingActionButtonExample from "./components/FloatingActionButtonExample";
 
 function App() {
   return (
@@ -9,7 +11,8 @@ function App() {
       {/* <ButtonExample/> */}
       {/* <AutoCompleteExample/> */}
       {/* <ButtonGroupExample/> */}
-      <CheckBoxExample />
+      {/* <CheckBoxExample /> */}
+      <FloatingActionButtonExample/>
     </div>
   );
 }
